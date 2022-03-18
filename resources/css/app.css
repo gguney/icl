@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.t-table{
+    @apply min-w-full table-auto border border-slate-400 rounded
+}
+
+th{
+    @apply bg-gray-50
+}
+
+td, th{
+    @apply py-2 px-2 text-left border border-slate-200
+}
