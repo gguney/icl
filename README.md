@@ -12,7 +12,7 @@
 
 # Notes
 
-I creted Insider Champions League with Docker, Laravel, VueJS and TailwindCSS. I used Circle method for round-robin tournament.
+I creted Insider Champions League with Docker, Laravel, VueJS and TailwindCSS. I used Circle method for round-robin tournament (https://en.wikipedia.org/wiki/Round-robin_tournament).
 
 # Description
 
