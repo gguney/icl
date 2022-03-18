@@ -2,6 +2,8 @@
 
 namespace Tests\Feature;
 
+use Symfony\Component\HttpFoundation\Response;
+
 class MainControllerTest extends BaseTestCase
 {
     /** @test */
@@ -9,6 +11,6 @@ class MainControllerTest extends BaseTestCase
     {
         $response = $this->get('/');
 
-        $response->assertStatus(200);
+        $response->assertStatus(Response::HTTP_OK);
     }
 }
